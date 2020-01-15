@@ -11,7 +11,7 @@ public class Stream_Reading_Writing {
 
             // Output Stream Write
             FileOutputStream f = new FileOutputStream("C:\\Users\\RZK Technology\\Desktop\\File_Reading_Writing\\File.txt");
-            String s1 = "Welcome to Codesdope";
+            String s1 = "Hai I am Ruzaik I am From Kurunegala";
             byte b1[] = s1.getBytes();
             //System.out.println(b1);
             f.write(b1);
