@@ -56,7 +56,7 @@ public class SimpleHTTPSServer {
       String clientName = query.substring(query.indexOf("=") + 1, query.length());
       System.out.println(clientName);
 
-      String response = "okk you are registered !";
+      String response = "Registerd Successfully";
 
       //Check User is in if not add
       if (userList.keySet().stream().anyMatch(clientName::equals)) {
