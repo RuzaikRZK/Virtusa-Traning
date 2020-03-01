@@ -10,7 +10,7 @@ import javax.net.ssl.HttpsURLConnection;
 public class SClient {
   private static PrintWriter out = null;
   private static BufferedReader in = null;
-  private static String ip = "localhost", name = "ishan", port = "8000";
+  private static String ip = "localhost", name = "testclient", port = "8000";
 
 
   //Exception in thread "main" javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching localhost found
