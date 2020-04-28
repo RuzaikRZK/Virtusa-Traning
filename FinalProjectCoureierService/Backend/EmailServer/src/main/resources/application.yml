@@ -1,0 +1,9 @@
+server:
+  port: 2009
+security:
+  oauth2:
+      resource: 
+        token-info-uri : http://localhost:7878/oauth/check_token
+      client: 
+        client-id: web
+        client-secret: webpass
